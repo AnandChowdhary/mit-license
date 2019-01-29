@@ -15,3 +15,21 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Twente.me
+
+[Twente.me](https://twente.me) is an easy way to share your work under the Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
+
+1. Create a pull request with a YAML file with your basic details (name, email, etc.) in the `./people` folder.
+2. Add the Twente License badge (code samples below) to your repositories.
+3. Link the badge to your personal license page, i.e., [twente.me/sample](https://twente.me/sample).
+
+[![Twente License](https://img.shields.io/badge/license-Twente-green.svg)](https://twente.me/sample)
+
+```md
+[![Twente License](https://img.shields.io/badge/license-Twente-green.svg)](https://twente.me/sample)
+```
+
+```html
+<a href="https://twente.me/sample"><img alt="Twente License" src="https://img.shields.io/badge/license-Twente-green.svg"></a>
+```
