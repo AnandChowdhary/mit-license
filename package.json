@@ -1,0 +1,22 @@
+{
+  "name": "twente-license",
+  "version": "1.0.0",
+  "description": "A free and permissive license with European values",
+  "main": "twente.me/index.js",
+  "repository": "git@github.com:AnandChowdhary/twente-license",
+  "author": "Anand Chowdhary <mail@anandchowdhary.com>",
+  "license": "Twente",
+  "scripts": {
+    "start": "tsc && node dist/server/index.js",
+    "build": "del dist && yarn start",
+    "watch": "onchange '**/*.ts' -- yarn start",
+    "prettier": "onchange '**/*.{js,ts,jsx,tsx,scss,css,less,json,yml}' -- prettier --write {{changed}}"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.19",
+    "del-cli": "^1.1.0",
+    "onchange": "^5.2.0",
+    "prettier": "^1.16.1",
+    "typescript": "^3.2.4"
+  }
+}

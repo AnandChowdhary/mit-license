@@ -47,3 +47,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ```html
 <a href="https://twente.me/sample"><img alt="Twente License" src="https://img.shields.io/badge/license-Twente-green.svg"></a>
 ```
+
+## Todo
+
+- [ ] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
