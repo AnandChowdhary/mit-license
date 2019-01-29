@@ -32,6 +32,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## 🔗 Twente.me
 
+[![Build status](https://api.travis-ci.org/AnandChowdhary/twente-license.svg?branch=master)](https://travis-ci.org/AnandChowdhary/twente-license/)
+[![Coverage Status](https://coveralls.io/repos/github/AnandChowdhary/twente-license/badge.svg?branch=master)](https://coveralls.io/github/AnandChowdhary/twente-license?branch=master)
+![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AnandChowdhary/twente-license.svg)
+![Dependencies](https://img.shields.io/david/dev/AnandChowdhary/twente-license.svg)
+
 [Twente.me](https://twente.me) is an easy way to share your work under the Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
 
 1. Create a pull request with a YAML file with your basic details (name, email, etc.) in the `./people` folder.
