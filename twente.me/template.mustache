@@ -1,6 +1,32 @@
 <!doctype html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Twente License &middot; {{name}}</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+                max-width: 555px;
+                margin: 10vh auto;
+                padding: 0 1.5rem;
+                line-height: 1.5;
+            }
+        </style>
+    </head>
     <body>
-        <p>Hello, {{name}}!</p>
+        <h1>Twente License</h1>
+        <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
+        {{{license}}}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39298323-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag("js", new Date());
+            gtag("config", "UA-39298323-2");
+            {{#ga}}
+                gtag("config", "{{ga}}");
+            {{/ga}}
+        </script>
     </body>
 </html>
