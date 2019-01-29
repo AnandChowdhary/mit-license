@@ -1,4 +1,4 @@
-# Twente License [![Twente License](https://img.shields.io/badge/license-Twente-green.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
+# Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
 The Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with European values like privacy, human rights, and equality.
 
@@ -43,14 +43,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 2. Add the Twente License badge (code samples below) to your repositories.
 3. Link the badge to your personal license page, i.e., [twente.me/sample](https://twente.me/sample).
 
-[![Twente License](https://img.shields.io/badge/license-Twente-green.svg)](https://twente.me/sample)
+[![Twente License](https://twente.me/shield.svg)](https://twente.me/sample)
 
 ```md
-[![Twente License](https://img.shields.io/badge/license-Twente-green.svg)](https://twente.me/sample)
+[![Twente License](https://twente.me/shield.svg)](https://twente.me/sample)
 ```
 
 ```html
-<a href="https://twente.me/sample"><img alt="Twente License" src="https://img.shields.io/badge/license-Twente-green.svg"></a>
+<a href="https://twente.me/sample"><img alt="Twente License" src="https://twente.me/shield.svg"></a>
 ```
 
 ## Todo
