@@ -26,7 +26,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 *Insert text about privacy, Share Alike, etc.*
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Any copy, modification, merge, distribution, sublicensing, of this Software or Software based on this Software (Derivative) shall be offered with the same license as this Software. There may not be any additional or different terms or conditions of the Derivative. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
