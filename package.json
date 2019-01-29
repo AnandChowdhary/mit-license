@@ -7,20 +7,25 @@
   "author": "Anand Chowdhary <mail@anandchowdhary.com>",
   "license": "Twente",
   "scripts": {
-    "start": "tsc && node dist/server/index.js",
+    "test": "NODE_PATH=. jest --coverage --coverageReporters=text-lcov | coveralls",
+    "start": "tsc && NODE_PATH=. node dist/server/index.js",
     "build": "del dist && yarn start",
     "watch": "onchange '**/*.{ts,mustache}' -- yarn start",
     "prettier": "onchange '**/*.{js,ts,jsx,mustache,tsx,scss,css,less,json,yml}' -- prettier --write {{changed}}"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.13",
     "@types/node": "^10.12.19",
+    "coveralls": "^3.0.2",
     "del-cli": "^1.1.0",
     "file-name": "^0.1.0",
+    "jest": "^24.0.0",
     "js-yaml": "^3.12.1",
     "marked": "^0.6.0",
     "mustache": "^3.0.1",
     "onchange": "^5.2.0",
     "prettier": "^1.16.1",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.2.4"
   }
 }

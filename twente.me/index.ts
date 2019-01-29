@@ -3,38 +3,29 @@ const path = require("path");
 const fileName = require("file-name");
 const mustache = require("mustache");
 const yaml = require("js-yaml");
-const marked = require("marked");
 
-const people = path.join(__dirname, "..", "..", "people");
+import { getTemplate } from "./utils/template";
+import { getLicense } from "./utils/license";
+import { getPeople } from "./utils/people";
+import { ensureDirectoryExistence } from "./utils/directory";
 
-function ensureDirectoryExistence(filePath) {
-  var dirname = path.dirname(filePath);
-  if (fs.existsSync(dirname)) {
-    return true;
-  }
-  ensureDirectoryExistence(dirname);
-  fs.mkdirSync(dirname);
-}
+const people = getPeople();
+const template = getTemplate();
+const license = getLicense();
 
-const template = fs
-  .readFileSync(
-    path.join(__dirname, "..", "..", "twente.me", "template.mustache")
-  )
-  .toString();
-
-const license = marked(
-  fs.readFileSync(path.join(__dirname, "..", "..", "LICENSE.md")).toString()
-)
-  .split("\n")
-  .slice(2)
-  .join("\n");
-
-fs.readdirSync(people).forEach(file => {
-  const pagePath = path.join(__dirname, "..", "site", `${fileName(file)}.html`);
+people.forEach(person => {
+  const pagePath: String = path.join(
+    __dirname,
+    "..",
+    "site",
+    `${fileName(person)}.html`
+  );
   ensureDirectoryExistence(pagePath);
   try {
-    const yamlString = yaml.safeLoad(
-      fs.readFileSync(path.join(people, file)).toString()
+    const yamlString: String = yaml.safeLoad(
+      fs
+        .readFileSync(path.join(process.env.NODE_PATH || ".", "people", person))
+        .toString()
     );
     fs.writeFileSync(
       pagePath,
