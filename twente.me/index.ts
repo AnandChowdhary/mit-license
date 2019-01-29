@@ -3,6 +3,7 @@ const path = require("path");
 const fileName = require("file-name");
 const mustache = require("mustache");
 const yaml = require("js-yaml");
+const copy = require("copy");
 
 import { getTemplate } from "./utils/template";
 import { getLicense } from "./utils/license";
@@ -32,4 +33,5 @@ people.forEach(person => {
       mustache.render(template, { ...yamlString, license })
     );
   } catch (e) {}
+  copy(path.join(process.env.NODE_PATH || ".", "twente.me", "static", "*"), path.join(process.env.NODE_PATH || ".", "dist", "site"), () => {});
 });

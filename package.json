@@ -16,6 +16,7 @@
   "devDependencies": {
     "@types/jest": "^23.3.13",
     "@types/node": "^10.12.19",
+    "copy": "^0.3.2",
     "coveralls": "^3.0.2",
     "del-cli": "^1.1.0",
     "file-name": "^0.1.0",
