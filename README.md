@@ -62,3 +62,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Todo
 
 - [ ] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
+- [ ] Generate your own Twente License with custom conditions, choose values, etc.
