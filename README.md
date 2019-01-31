@@ -12,9 +12,9 @@ The Twente License is free and permissive—just like the MIT license—but it a
 
 ## 🐎 Why Twente?
 
-The European Union (EU) has been in the center of enforcing privacy on the web with regulations such as the GDPR. While the United States Senate was busy asking [how Facebook makes money](https://www.youtube.com/watch?v=n2H8wx1aBiQ), the EU has imposed millions of euros worth of fines on companies for lack of transparency and disregarding privacy.
+The European Union (EU) has been in the center of enforcing privacy on the web with regulations such as the GDPR. While the United States Senate was busy asking [how Facebook is free](https://www.youtube.com/watch?v=n2H8wx1aBiQ), the EU has imposed millions of euros worth of fines on companies for lack of transparency and disregarding privacy.
 
-The Twente License is named after [University of Twente](https://www.utwente.nl/en/), where it originated, and the high-tech entrepreneurial region of [Twente](https://www.visittwente.com) in the eastern part of the Netherlands.
+The Twente License is named after [University of Twente](https://utwente.nl/en/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary), where it originated, and the high-tech entrepreneurial region of [Twente](https://www.visittwente.com/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary) in the eastern part of the Netherlands.
 
 ## 📝 License Text
 
@@ -23,17 +23,17 @@ The Twente License is named after [University of Twente](https://www.utwente.nl/
 Copyright &copy; Your Name (email@example.com)
 
 <details>
-<summary>MIT license intro</summary>
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-</details>
+<summary><em>MIT license intro</em></summary>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+</details>  
 
-*Insert text about privacy, etc.*
+Any copy, modification, merge, distribution, or sublicensing of this Software or Software based on this Software (the "Derivative") shall be offered with the same license as the Software. There may not be any additional or different terms or conditions of the Derivative.
 
-Any copy, modification, merge, distribution, sublicensing, of this Software or Software based on this Software (the "Derivative") shall be offered with the same license as the Software. There may not be any additional or different terms or conditions of the Derivative. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
+The Derivative shall require unambiguous prior consent before collecting any personally identifiable information of a user, and shall not release this information to a third party without aforementioned consent. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
 
 <details>
-<summary>MIT license waiver of warranty</summary>
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<summary><em>MIT license waiver of warranty</em></summary>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 </details>
 
 ## 🔗 Twente.me
