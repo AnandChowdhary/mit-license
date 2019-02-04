@@ -25,7 +25,7 @@
     "marked": "^0.6.0",
     "mustache": "^3.0.1",
     "onchange": "^5.2.0",
-    "prettier": "^1.16.3",
+    "prettier": "^1.16.4",
     "ts-jest": "^23.10.5",
     "typescript": "^3.3.1"
   }
