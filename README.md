@@ -1,6 +1,6 @@
 # Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
-The Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with European values like privacy, human rights, and equality.
+Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with European values like privacy, human rights, and equality.
 
 ## 💡 Rationale
 
@@ -8,13 +8,13 @@ The MIT license is the [most popular](https://github.blog/2015-03-09-open-source
 
 However, in light of recent events where companies are financially motivated to disregard individual privacy, developers should choose wisely who can use their intellectual property or codebases.
 
-The Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting privacy, human rights, and other European values.
+Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting privacy, human rights, and other European values.
 
 ## 🐎 Why Twente?
 
 The European Union (EU) has been in the center of enforcing privacy on the web with regulations such as the GDPR. While the United States Senate was busy asking [how Facebook is free](https://www.youtube.com/watch?v=n2H8wx1aBiQ), the EU has imposed millions of euros worth of fines on companies for lack of transparency and disregarding privacy.
 
-The Twente License is named after [University of Twente](https://utwente.nl/en/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary), where it originated, and the high-tech entrepreneurial region of [Twente](https://www.visittwente.com/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary) in the eastern part of the Netherlands.
+Twente License is named after [University of Twente](https://utwente.nl/en/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary), where it originated, and the high-tech entrepreneurial region of [Twente](https://www.visittwente.com/?utm_source=twente-license&utm_medium=github&utm_campaign=README&utm_term=anand-chowdhary) in the eastern part of the Netherlands.
 
 ## 📝 License Text
 
@@ -43,7 +43,7 @@ The Derivative shall require unambiguous prior consent before collecting any per
 ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AnandChowdhary/twente-license.svg)
 ![Dependencies](https://img.shields.io/david/dev/AnandChowdhary/twente-license.svg)
 
-[Twente.me](https://twente.me) is an easy way to share your work under the Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
+[Twente.me](https://twente.me) is an easy way to share your work under Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
 
 1. Create a pull request with a YAML file with your info (name, email, links etc., [here's a sample](https://github.com/AnandChowdhary/twente-license/blob/master/people/sample.yml)) in the `./people` folder.
 2. Add the Twente License badge (code samples below) to your repositories.
@@ -59,7 +59,25 @@ The Derivative shall require unambiguous prior consent before collecting any per
 <a href="https://twente.me/sample"><img alt="Twente License" src="https://twente.me/shield.svg"></a>
 ```
 
-## Todo
+## 🤔 FAQ
+
+#### Can I use Twente License in a commercial, proprietary project?
+
+Absolutely. The license does not force you to release your code under an open-source license, it only asks you to respect certain values, like individual privacy.
+
+#### Can I just switch from MIT to Twente License without changing my codebase?
+
+My probably, yes. Since open-source packages don't usually collect any personal information, you can just replace the MIT license text with the Twente License text in your `LICENSE.md` file. However, if you are planning on releasing a product (such as an app, a website, etc.) under the Twente License, make sure you comply with the rules before switching.
+
+#### Can I add my own set of values in Twente License?
+
+You're free to fork the license and create your own version (this repository is Twente licensed), and we care currently working on a way to automatically generate custom-value versions of Twente License using twente.me.
+
+#### Do you have a presskit to promote Twente License?
+
+Not yet, but we are working on it.
+
+## ✅ Todo
 
 - [ ] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
 - [ ] Generate your own Twente License with custom conditions, choose values, etc.
