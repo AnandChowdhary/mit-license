@@ -45,7 +45,7 @@ The Derivative shall require unambiguous prior consent before collecting any per
 
 [Twente.me](https://twente.me) is an easy way to share your work under the Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
 
-1. Create a pull request with a YAML file with your basic details (name, email, etc.) in the `./people` folder.
+1. Create a pull request with a YAML file with your info (name, email, links etc., [here's a sample](https://github.com/AnandChowdhary/twente-license/blob/master/people/sample.yml)) in the `./people` folder.
 2. Add the Twente License badge (code samples below) to your repositories.
 3. Link the badge to your personal license page, i.e., [twente.me/sample](https://twente.me/sample).
 
