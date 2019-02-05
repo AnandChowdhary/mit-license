@@ -23,8 +23,27 @@
         <main>
             <div>
                 <h1>Twente License</h1>
-                <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
-                {{{license}}}
+                <div class="summary">
+                    <div>
+                        <div class="icon"><i class="fas fa-fw fa-check-circle"></i></div>
+                        <p>You can use this code commercially and privately.</p>
+                    </div>
+                    <div>
+                        <div class="icon"><i class="fas fa-fw fa-check-circle"></i></div>
+                        <p>You can copy, modify, distribute, and sell this code, or use it in your product for free.</p>
+                    </div>
+                    <div>
+                        <div class="icon"><i class="fas fa-fw fa-lock"></i></div>
+                        <p>Your product must not collect any personal information of a user without consent, or share it with third-parties without consent.</p>
+                    </div>
+                </div>
+                <details>
+                    <summary>The above is a summary of (and not a substitute for) the license. <strong>Read the full license text.</strong></summary>
+                    <div>
+                        <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
+                        {{{license}}}
+                    </div>
+                </details>
             </div>
             {{^repositories}}<style> section { display: none } </style>{{/repositories}}
             <section>
@@ -45,10 +64,11 @@
             </section>
         </main>
         <footer>
-            <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/AnandChowdhary">Get your own Twente License page.</a></p>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/AnandChowdhary/twente-license">Get your own Twente License page.</a></p>
         </footer>
         {{#scripts}}<script src="{{{scripts}}}"></script>{{/scripts}}
         <script async defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+        <script async src="https://public-cdn.oswaldlabs.com/focus-visible.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39298323-2"></script>
         <script>
             window.dataLayer = window.dataLayer || [];

@@ -8,6 +8,13 @@ body {
   margin: 0;
 }
 
+:focus {
+  outline: 4px dashed #e74c3c;
+}
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
 header > div,
 main > div {
   max-width: 555px;
@@ -21,6 +28,10 @@ p:not(:last-of-type) {
 
 h1, h2 {
   font-weight: 300;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 header,
@@ -107,6 +118,28 @@ h2.name {
 }
 .icons svg {
   opacity: 0.3;
+}
+
+details > div {
+  margin-top: 2rem;
+}
+
+.summary {
+  margin-bottom: 1rem;
+}
+.summary > div {
+  display: flex;
+}
+.summary .icon {
+  font-size: 300%;
+  margin-right: 1rem;
+  color: #2ecc71;
+}
+.summary div:last-child .icon {
+  color: #e74c3c;
+}
+.summary p {
+  font-size: 125%;
 }
 
 @media (max-width: 650px) {
