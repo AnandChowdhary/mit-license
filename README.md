@@ -79,5 +79,6 @@ Not yet, but we are working on it.
 
 ## ✅ Todo
 
-- [ ] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
+- [x] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
+- [x] [Submit to OSI](https://opensource.org/approval)
 - [ ] Generate your own Twente License with custom conditions, choose values, etc.
