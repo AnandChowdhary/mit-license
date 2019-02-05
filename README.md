@@ -73,6 +73,10 @@ My probably, yes. Since open-source packages don't usually collect any personal 
 
 You're free to fork the license and create your own version (this repository is Twente licensed), and we care currently working on a way to automatically generate custom-value versions of Twente License using twente.me.
 
+#### Do I need to comply with the GDPR to use Twente License?
+
+The GDPR is much broader in requirements and includes hiring a Data Protection Officer, having an option to export and delete data, etc. Twente License only asks you to respect privacy, but complying with the GDPR means you automatically qualify for Twente License too.
+
 #### Do you have a presskit to promote Twente License?
 
 Not yet, but we are working on it.
