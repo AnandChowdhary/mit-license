@@ -1,6 +1,6 @@
 # Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
-Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with European values like privacy, human rights, and equality.
+Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added European values like respective individual privacy.
 
 ## 💡 Rationale
 
@@ -8,7 +8,7 @@ The MIT license is the [most popular](https://github.blog/2015-03-09-open-source
 
 However, in light of recent events where companies are financially motivated to disregard individual privacy, developers should choose wisely who can use their intellectual property or codebases.
 
-Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting privacy, human rights, and other European values.
+Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting individual privacy.
 
 ## 🐎 Why Twente?
 
