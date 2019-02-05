@@ -1,3 +1,7 @@
-name: "Anand Chowdhary"
-email: "mail@anandchowdhary.com"
-website: "https://anandchowdhary.com"
+name: Anand Chowdhary
+email: mail@anandchowdhary.com
+website: https://anandchowdhary.com
+github: https://github.com/AnandChowdhary
+repos:
+ - AnandChowdhary/twente-license
+ - AnandChowdhary/hello-bar

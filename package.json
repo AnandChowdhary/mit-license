@@ -10,8 +10,8 @@
     "test": "NODE_PATH=. jest --coverage --coverageReporters=text-lcov | coveralls",
     "start": "tsc && NODE_PATH=. node dist/server/index.js",
     "build": "del dist && yarn start",
-    "watch": "onchange '**/*.{ts,mustache}' -- yarn start",
-    "prettier": "onchange '**/*.{js,ts,jsx,mustache,tsx,scss,css,less,json,yml}' -- prettier --write {{changed}}"
+    "watch": "onchange 'twente.me/*.{ts,mustache,css,yml}' -- yarn start",
+    "prettier": "onchange 'twente.me/*.{js,ts,jsx,mustache,tsx,scss,css,less,json,yml}' -- prettier --write {{changed}}"
   },
   "devDependencies": {
     "@types/jest": "^24.0.0",
@@ -28,5 +28,10 @@
     "prettier": "^1.16.4",
     "ts-jest": "^23.10.5",
     "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "promise-serial": "^0.1.5"
   }
 }

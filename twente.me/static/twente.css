@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:300,400");
+
+body {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5;
+  margin: 0;
+}
+
+header > div,
+main > div {
+  max-width: 555px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+p:not(:last-of-type) {
+  margin: 0 0 2rem 0;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+header,
+footer {
+  background-color: whitesmoke;
+  padding: 3rem 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+
+main {
+  margin: 4rem 0;
+}
+
+.links {
+  font-size: 200%;
+  margin-top: 1rem;
+}
+.links a {
+  margin-right: 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: none;
+}

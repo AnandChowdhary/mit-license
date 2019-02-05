@@ -1,4 +1,21 @@
-name: "Your Name"
-email: "email@example.com"
-website: "https://example.com"
-ga: "UA-XXXXXXXX-X"
+# Basic info (mandatory)
+name: Your Name
+email: email@example.com
+
+# Add your developer profile links
+website: https://example.com
+github: https://github.com/username
+stackoverflow: https://stackoverflow.com/users/XXXXXXX
+gitlab: https://gitlab.com/username
+bitbucket: https://bitbucket.org/username/
+
+# Repositories using Twente License to feature on your page
+repos:
+  - github_username/repo
+
+# Add Google Analytics or custom scripts/styles
+ga: UA-XXXXXXXX-X
+scripts:
+  - https://example.com/script.js
+styles:
+  - https://example.com/style.js

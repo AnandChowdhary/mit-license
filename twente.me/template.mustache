@@ -4,20 +4,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Twente License &middot; {{name}}</title>
-        <style>
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-                max-width: 555px;
-                margin: 10vh auto;
-                padding: 0 1.5rem;
-                line-height: 1.5;
-            }
-        </style>
+        <link rel="stylesheet" href="./twente.css">
+        {{#styles}}<link rel="stylesheet" href="{{{styles}}}">{{/styles}}
     </head>
     <body>
-        <h1>Twente License</h1>
-        <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
-        {{{license}}}
+        <header>
+            <div>
+                <h1 class="name">{{name}}</h1>
+                <div class="links">
+                    {{#github}}<a target="_blank" rel="noopener noreferrer" href="{{{github}}}"><i title="Github" class="fab fa-github"></i></a>{{/github}}
+                    {{#stackoverflow}}<a target="_blank" rel="noopener noreferrer" href="{{{stackoverflow}}}"><i title="Stack Overflow" class="fab fa-stack-overflow"></i></a>{{/stackoverflow}}
+                    {{#gitlab}}<a target="_blank" rel="noopener noreferrer" href="{{{gitlab}}}"><i title="Gitlab" class="fab fa-gitlab"></i></a>{{/gitlab}}
+                    {{#bitbucket}}<a target="_blank" rel="noopener noreferrer" href="{{{bitbucket}}}"><i title="Bitbucket" class="fab fa-bitbucket"></i></a>{{/bitbucket}}
+                    {{#website}}<a target="_blank" rel="noopener noreferrer" href="{{{website}}}?ref=twente-license"><i title="Website" class="fas fa-link"></i></a>{{/website}}
+                </div>
+            </div>
+        </header>
+        <main>
+            {{#repositories}}{{name}}{{/repositories}}
+            <div>
+                <h1>Twente License</h1>
+                <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
+                {{{license}}}
+            </div>
+        </main>
+        <footer>
+            <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/AnandChowdhary">Get your own Twente License page.</a></p>
+        </footer>
+        {{#scripts}}<script src="{{{scripts}}}"></script>{{/scripts}}
+        <script async defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39298323-2"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
