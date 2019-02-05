@@ -21,12 +21,28 @@
             </div>
         </header>
         <main>
-            {{#repositories}}{{name}}{{/repositories}}
             <div>
                 <h1>Twente License</h1>
                 <p>Copyright &copy; {{name}} (<a href="mailto:{{email}}">{{email}}</a>)</p>
                 {{{license}}}
             </div>
+            {{^repositories}}<style> section { display: none } </style>{{/repositories}}
+            <section>
+                <h1>Repositories</h1>
+                <div>
+                    {{#repositories}}
+                        <a target="_blank" rel="noopener noreferrer" href="{{{html_url}}}">
+                            <h2 class="name">{{name}}</h2>
+                            <div class="language"><i class="fas fa-circle fa-fw" style="color: {{{color}}}"></i>{{language}}</div>
+                            <div class="icons">
+                                <div class="stars"><i class="fas fa-star fa-fw"></i>{{stargazers_count}}</div>
+                                <div class="forks"><i class="fas fa-code-branch fa-fw"></i>{{forks_count}}</div>
+                                <div class="issues"><i class="fas fa-exclamation-circle fa-fw"></i>{{open_issues_count}}</div>
+                            </div>
+                        </a>
+                    {{/repositories}}
+                </div>
+            </section>
         </main>
         <footer>
             <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/AnandChowdhary">Get your own Twente License page.</a></p>

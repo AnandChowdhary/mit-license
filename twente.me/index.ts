@@ -6,6 +6,7 @@ const yaml = require("js-yaml");
 const copy = require("copy");
 const axios = require("axios");
 const serial = require("promise-serial");
+const colors = require("github-colors");
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -19,7 +20,7 @@ const template = getTemplate();
 const license = getLicense();
 
 people.forEach(person => {
-  const pagePath: String = path.join(
+  const pagePath: string = path.join(
     __dirname,
     "..",
     "site",
@@ -32,21 +33,6 @@ people.forEach(person => {
         .readFileSync(path.join(process.env.NODE_PATH || ".", "people", person))
         .toString()
     );
-    ["scripts", "styles"].forEach(key => {
-      if (
-        yamlString.hasOwnProperty(key) &&
-        typeof yamlString[key] === "object" &&
-        yamlString[key].length
-      ) {
-        for (let i = 0; i < yamlString[key].length; i++) {
-          const obj: any = {};
-          obj[key] = yamlString[key][i];
-          yamlString[key][i] = {
-            httpString: obj
-          };
-        }
-      }
-    });
     const promises = [];
     const fetchedRepos = [];
     if (
@@ -58,21 +44,40 @@ people.forEach(person => {
         promises.push(
           () =>
             new Promise((resolve, reject) => {
-              axios
-                .get("https://api.github.com/repos/" + repo, {
-                  headers: {
-                    "User-Agent": "AnandChowdhary",
-                    Authorization: "token " + process.env.GITHUB_TOKEN
-                  }
-                })
-                .then(response => {
-                  fetchedRepos.push(response.data);
-                  resolve();
-                })
-                .catch(error => {
-                  console.log("Got an error", error);
-                  reject();
-                });
+              const cachePath: string = path.join(
+                __dirname,
+                "..",
+                "..",
+                "cache",
+                `${repo}.json`
+              );
+              ensureDirectoryExistence(cachePath);
+              if (fs.existsSync(cachePath)) {
+                const response = fs.readFileSync(cachePath);
+                fetchedRepos.push(JSON.parse(response));
+                resolve();
+              } else {
+                axios
+                  .get("https://api.github.com/repos/" + repo, {
+                    headers: {
+                      "User-Agent": "AnandChowdhary",
+                      Authorization: "token " + process.env.GITHUB_TOKEN
+                    }
+                  })
+                  .then(response => {
+                    try {
+                      response.data.color = colors.get(response.data.language).color;
+                    } catch (e) {
+                      response.data.color = "#aaa";
+                    }
+                    fetchedRepos.push(response.data);
+                    fs.writeFileSync(cachePath, JSON.stringify(response.data));
+                    resolve();
+                  })
+                  .catch(error => {
+                    reject();
+                  });
+              }
             })
         )
       );
@@ -89,7 +94,6 @@ people.forEach(person => {
             repositories: fetchedRepos
           })
         );
-        console.log(fetchedRepos);
       });
   } catch (e) {
     console.log("Error", e);

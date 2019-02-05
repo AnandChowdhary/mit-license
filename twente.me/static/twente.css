@@ -52,3 +52,68 @@ a {
   font-weight: bold;
   text-decoration: none;
 }
+
+section {
+  max-width: 960px;
+  margin: 0 auto;
+}
+section > h1 {
+  max-width: 555px;
+  margin: 2rem auto 0 auto;
+}
+section > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section > div > a {
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  width: 300px;
+  max-width: 100%;
+  font-weight: normal;
+  margin-top: 2rem;
+  color: inherit;
+  padding: 1.5rem;
+  transition: 0.2s;
+}
+section > div > a:hover {
+  transform: scale(1.025);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+h2.name {
+  margin: 0;
+  font-size: 150%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.icons {
+  display: flex;
+}
+.icons > * {
+  margin-right: 1rem;
+}
+.language {
+  margin: 0.5rem 0;
+}
+.icons svg, .language svg {
+  margin-right: 0.25rem;
+}
+.icons svg {
+  opacity: 0.3;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    text-align: center;
+  }
+  section > div {
+    justify-content: center;
+  }
+}

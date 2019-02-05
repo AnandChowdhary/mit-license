@@ -10,12 +10,12 @@ gitlab: https://gitlab.com/username
 bitbucket: https://bitbucket.org/username/
 
 # Repositories using Twente License to feature on your page
-repos:
-  - github_username/repo
+# repos:
+  # - github_username/repo
 
 # Add Google Analytics or custom scripts/styles
 ga: UA-XXXXXXXX-X
 scripts:
   - https://example.com/script.js
 styles:
-  - https://example.com/style.js
+  - https://example.com/style.css
