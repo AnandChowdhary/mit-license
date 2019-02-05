@@ -9,7 +9,7 @@ const getLicense = () => {
       .toString()
   )
     .split("\n")
-    .slice(2)
+    .slice(1)
     .join("\n");
 };
 
