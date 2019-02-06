@@ -1,6 +1,6 @@
 # Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
-Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added European values like respective individual privacy.
+Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added values like respective individual privacy.
 
 ## 💡 Rationale
 
