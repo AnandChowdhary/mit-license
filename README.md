@@ -77,6 +77,10 @@ You're free to fork the license and create your own version (this repository is 
 
 The GDPR is much broader in requirements and includes hiring a Data Protection Officer, having an option to export and delete data, etc. Twente License only asks you to respect privacy, but complying with the GDPR means you automatically qualify for Twente License too.
 
+#### Does Twente License part of the SPDX License List and OSI-approved?
+
+Not yet, but it has been submitted to both SPDX ([#11](https://github.com/AnandChowdhary/twente-license/issues/11)) and OSI ([#10](https://github.com/AnandChowdhary/twente-license/issues/10)).
+
 #### Do you have a presskit to promote Twente License?
 
 Not yet, but we are working on it.
