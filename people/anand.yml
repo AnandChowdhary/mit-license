@@ -7,5 +7,5 @@ repos:
  - elninotech/uppload
  - AnandChowdhary/hello-bar
  - AnandChowdhary/hovercard
- scripts:
+scripts:
  - https://agastya-loader.oswaldlabs.com/gdpr-anonymous-tracker.js
