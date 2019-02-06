@@ -1,6 +1,6 @@
 # Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
-Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added values like respective individual privacy.
+Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added values like respectivng individual privacy by committing to transparency.
 
 ## 💡 Rationale
 
@@ -8,7 +8,7 @@ The MIT license is the [most popular](https://github.blog/2015-03-09-open-source
 
 However, in light of recent events where companies are financially motivated to disregard individual privacy, developers should choose wisely who can use their intellectual property or codebases.
 
-Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting individual privacy.
+Twente License is free and permissive—just like the MIT license—but it adds a clause where the end product in which Twente licensed code can be used has to be compliant with certain guidelines, primarily respecting individual privacy by telling users how their information is shared.
 
 ## 🐎 Why Twente?
 
@@ -29,7 +29,7 @@ Copyright &copy; Your Name (email@example.com)
 
 Any copy, modification, merge, distribution, or sublicensing of this Software or Software based on this Software (the "Derivative")  must comply with the following:
 
-The Derivative shall require unambiguous prior consent before collecting any personally identifiable information of a user, and shall not release this information to a third party without aforementioned consent. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
+The "Data Controller Statement" is a notice listing each Data Controller ("Data Controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data). The above copyright notice, the Data Controller Statement, and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
 
 <details>
 <summary><em>MIT license waiver of warranty</em></summary>
@@ -69,24 +69,17 @@ Absolutely. The license does not force you to release your code under an open-so
 
 My probably, yes. Since open-source packages don't usually collect any personal information, you can just replace the MIT license text with the Twente License text in your `LICENSE.md` file. However, if you are planning on releasing a product (such as an app, a website, etc.) under the Twente License, make sure you comply with the rules before switching.
 
-#### Can I add my own set of values in Twente License?
-
-You're free to fork the license and create your own version (this repository is Twente licensed), and we care currently working on a way to automatically generate custom-value versions of Twente License using twente.me.
-
 #### Do I need to comply with the GDPR to use Twente License?
 
-The GDPR is much broader in requirements and includes hiring a Data Protection Officer, having an option to export and delete data, etc. Twente License only asks you to respect privacy, but complying with the GDPR means you automatically qualify for Twente License too.
+The GDPR is much broader in requirements and includes hiring a Data Protection Officer, having an option to export and delete data, etc. Twente License only asks you for transparency, but complying with the GDPR means you automatically qualify for Twente License as well.
 
-#### Does Twente License part of the SPDX License List and OSI-approved?
+#### Is Twente License part of the SPDX License List and OSI-approved?
 
-Not yet, but it has been submitted to both SPDX ([#11](https://github.com/AnandChowdhary/twente-license/issues/11)) and OSI ([#10](https://github.com/AnandChowdhary/twente-license/issues/10)).
-
-#### Do you have a presskit to promote Twente License?
-
-Not yet, but we are working on it.
+Not yet, but it has been submitted to both SPDX ([#11](https://github.com/AnandChowdhary/twente-license/issues/11)) and OSI ([#10](https://github.com/AnandChowdhary/twente-license/issues/10)), pending reviews.
 
 ## ✅ Todo
 
 - [x] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
 - [x] [Submit to OSI](https://opensource.org/approval)
+- [ ] Work on transparency instead of forcing privacy
 - [ ] Generate your own Twente License with custom conditions, choose values, etc.
