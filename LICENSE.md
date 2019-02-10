@@ -4,6 +4,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 Any copy, modification, merge, distribution, or sublicensing of this Software or Software based on this Software (the "Derivative") must comply with the following:
 
-The Derivative shall require unambiguous prior consent before collecting any personally identifiable information of a user, and shall not release this information to a third party without aforementioned consent. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
+The "Data Controller Statement" is a notice listing each Data Controller ("Data Controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data). The above copyright notice, the Data Controller Statement, and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
