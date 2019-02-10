@@ -8,6 +8,7 @@
   "license": "Twente",
   "scripts": {
     "test": "NODE_PATH=. jest --coverage --coverageReporters=text-lcov | coveralls",
+    "coverage": "NODE_PATH=. jest --coverage",
     "start": "tsc && NODE_PATH=. node dist/server/index.js",
     "build": "del dist && yarn start",
     "watch": "onchange 'twente.me/**/*.{ts,css,yml}' -- yarn start",

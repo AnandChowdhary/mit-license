@@ -7,4 +7,4 @@ const getPeople = () => {
   return fs.readdirSync(people);
 };
 
-export { getPeople };
+export { getPeople, people };
