@@ -10,14 +10,14 @@ const colors = require("github-colors");
 const dotenv = require("dotenv");
 dotenv.config();
 
-import { getTemplate } from "./utils/template";
-import { getLicense } from "./utils/license";
 import { getPeople } from "./utils/people";
+import { getLicense } from "./utils/license";
+import { getTemplate } from "./utils/template";
 import { ensureDirectoryExistence } from "./utils/directory";
 
 const people = getPeople();
-const template = getTemplate();
 const license = getLicense();
+const template = getTemplate();
 
 people.forEach(person => {
   const pagePath: string = path.join(
