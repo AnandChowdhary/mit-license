@@ -32,8 +32,9 @@ Any copy, modification, merge, distribution, or sublicensing of this Software or
 The "Data Controller Statement" is a notice listing each Data Controller ("Data Controller" means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data). The above copyright notice, the Data Controller Statement, and this permission notice shall be included in all copies or substantial portions of the Software and the Derivative.
 
 <details>
-<summary><em>MIT license waiver of warranty</em></summary>
+<summary><em>MIT license waiver of warranty and more info link</em></summary>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p>For more information, please refer to <a href="https://twente.me">https://twente.me</a>.
 </details>
 
 ## 🔗 Twente.me
