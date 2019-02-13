@@ -136,10 +136,10 @@
   resolved "https://registry.yarnpkg.com/@blakeembrey/deque/-/deque-1.0.4.tgz#4fc65476814e6b807140f258852055e5f69e5ccb"
   integrity sha512-gzAiePolEXlMlQxbHWcdmz+b+PEixO5so0mU8jMlCemp8sxUWko9AzWc4EK3MV6BCUYd9cjq+Gd477cZiq5Kfw==
 
-"@types/jest@^24.0.0":
-  version "24.0.0"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.0.tgz#848492026c327b3548d92be0352a545c36a21e8a"
-  integrity sha512-kOafJnUTnMd7/OfEO/x3I47EHswNjn+dbz9qk3mtonr1RvKT+1FGVxnxAx08I9K8Tl7j9hpoJRE7OCf+t10fng==
+"@types/jest@^24.0.3":
+  version "24.0.3"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.3.tgz#df8dc56565bd2d27fcbd099434f04f9891e16ab7"
+  integrity sha512-keRxrIwZZ/Ml83cGl3G0OjGlBO4UFQCCa5QlBPz2pY+ZvSnoeUvMJw0vmL4JU6g4vbpIW5H4qSq1xv9h8naAfg==
 
 "@types/node@^10.12.21":
   version "10.12.21"
