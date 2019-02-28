@@ -18,8 +18,6 @@ Twente License is named after [University of Twente](https://utwente.nl/en/?utm_
 
 ## 📝 License Text
 
-![Work in progress](https://img.shields.io/badge/this%20section%20is%20a-work%20in%20progress-red.svg)
-
 Copyright &copy; Your Name (email@example.com)
 
 <details>
@@ -62,13 +60,13 @@ The "Data Controller Statement" is a notice listing each Data Controller ("Data 
 
 ## 🤔 FAQ
 
-#### Can I use Twente License in a commercial, proprietary project?
+#### Can I use Twente Licensed code in a commercial, proprietary project?
 
 Absolutely. The license does not force you to release your code under an open-source license, it only asks you to respect certain values, like individual privacy.
 
 #### Can I just switch from MIT to Twente License without changing my codebase?
 
-My probably, yes. Since open-source packages don't usually collect any personal information, you can just replace the MIT license text with the Twente License text in your `LICENSE.md` file. However, if you are planning on releasing a product (such as an app, a website, etc.) under the Twente License, make sure you comply with the rules before switching.
+My probably, yes. Since open-source packages don't usually collect any personal information, you can just replace the MIT license text with the Twente License text in your `LICENSE.md` file. However, if you are planning on releasing a product (such as an app, a website, etc.) with code under the Twente License, make sure you comply with the rules before switching.
 
 #### Do I need to comply with the GDPR to use Twente License?
 
@@ -82,5 +80,5 @@ Not yet, but it has been submitted to both SPDX ([#11](https://github.com/AnandC
 
 - [x] [Submit to SPDX](https://github.com/spdx/license-list-XML/blob/master/CONTRIBUTING.md)
 - [x] [Submit to OSI](https://opensource.org/approval)
-- [ ] Work on transparency instead of forcing privacy
+- [x] Work on transparency instead of forcing privacy
 - [ ] Generate your own Twente License with custom conditions, choose values, etc.

@@ -74,7 +74,7 @@ people.forEach(person => {
                     fs.writeFileSync(cachePath, JSON.stringify(response.data));
                     resolve();
                   })
-                  .catch(error => {
+                  .catch(() => {
                     reject();
                   });
               }
@@ -95,8 +95,8 @@ people.forEach(person => {
           })
         );
       });
-  } catch (e) {
-    console.log("Error", e);
+  } catch (error) {
+    console.log("Error", error);
   }
   copy(
     path.join(process.env.NODE_PATH || ".", "twente.me", "static", "*"),
