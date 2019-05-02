@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "dotenv": "^7.0.0",
+    "dotenv": "^8.0.0",
     "github-colors": "^2.2.18",
     "promise-serial": "^0.1.5"
   }
