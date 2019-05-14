@@ -15,7 +15,7 @@
     "prettier": "onchange 'twente.me/**/*.{js,ts,jsx,tsx,scss,css,less,json,yml}' -- prettier --write {{changed}}"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.12",
+    "@types/jest": "^24.0.13",
     "@types/node": "^10.12.21",
     "copy": "^0.3.2",
     "coveralls": "^3.0.3",
