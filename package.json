@@ -18,7 +18,7 @@
     "@types/jest": "^24.0.13",
     "@types/node": "^10.12.21",
     "copy": "^0.3.2",
-    "coveralls": "^3.0.3",
+    "coveralls": "^3.0.4",
     "del-cli": "^2.0.0",
     "file-name": "^0.1.0",
     "jest": "^24.8.0",
