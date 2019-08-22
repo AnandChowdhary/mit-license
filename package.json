@@ -24,7 +24,7 @@
     "jest": "^24.8.0",
     "js-yaml": "^3.13.1",
     "marked": "^0.6.2",
-    "mustache": "^3.0.1",
+    "mustache": "^3.0.2",
     "onchange": "^6.0.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
