@@ -23,7 +23,7 @@
     "file-name": "^0.1.0",
     "jest": "^24.9.0",
     "js-yaml": "^3.13.1",
-    "marked": "^0.6.2",
+    "marked": "^0.8.0",
     "mustache": "^3.1.0",
     "onchange": "^6.1.0",
     "prettier": "^1.18.2",
