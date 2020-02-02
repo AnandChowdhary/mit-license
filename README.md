@@ -1,4 +1,4 @@
-# Twente License [![Twente License](https://twente.me/shield.svg)](https://twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
+# Twente License [![Twente License](https://license.twente.me/shield.svg)](https://license.twente.me) ![Work in progress](https://img.shields.io/badge/work%20in-progress-green.svg)
 
 Twente License is a fork of the [MIT license](https://opensource.org/licenses/MIT). It aims to combine openly sharing knowledge (i.e., a permissive, open license) with added values like respectivng individual privacy by committing to transparency.
 
@@ -32,30 +32,30 @@ The "Data Controller Statement" is a notice listing each Data Controller ("Data 
 <details>
 <summary><em>MIT license waiver of warranty and more info link</em></summary>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-<p>For more information, please refer to <a href="https://twente.me">https://twente.me</a>.
+<p>For more information, please refer to <a href="https://license.twente.me">https://license.twente.me</a>.
 </details>
 
-## 🔗 Twente.me
+## 🔗 License.Twente.me
 
 [![Build status](https://api.travis-ci.org/AnandChowdhary/twente-license.svg?branch=master)](https://travis-ci.org/AnandChowdhary/twente-license/)
 [![Coverage Status](https://coveralls.io/repos/github/AnandChowdhary/twente-license/badge.svg?branch=master)](https://coveralls.io/github/AnandChowdhary/twente-license?branch=master)
 ![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/AnandChowdhary/twente-license.svg)
 ![Dependencies](https://img.shields.io/david/dev/AnandChowdhary/twente-license.svg)
 
-[Twente.me](https://twente.me) is an easy way to share your work under Twente License using a hosted permalink. You can claim your username, like [twente.me/anand](https://twente.me/anand) and link your badge to your own generated Twente License page.
+[License.Twente.me](https://license.twente.me) is an easy way to share your work under Twente License using a hosted permalink. You can claim your username, like [license.twente.me/anand](https://license.twente.me/anand) and link your badge to your own generated Twente License page.
 
 1. Create a pull request with a YAML file with your info (name, email, links etc., [here's a sample](https://github.com/AnandChowdhary/twente-license/blob/master/people/sample.yml)) in the `./people` folder.
 2. Add the Twente License badge (code samples below) to your repositories.
-3. Link the badge to your personal license page, i.e., [twente.me/sample](https://twente.me/sample).
+3. Link the badge to your personal license page, i.e., [license.twente.me/sample](https://license.twente.me/sample).
 
-[![Twente License](https://twente.me/shield.svg)](https://twente.me/sample)
+[![Twente License](https://license.twente.me/shield.svg)](https://license.twente.me/sample)
 
 ```md
-[![Twente License](https://twente.me/shield.svg)](https://twente.me/sample)
+[![Twente License](https://license.twente.me/shield.svg)](https://license.twente.me/sample)
 ```
 
 ```html
-<a href="https://twente.me/sample"><img alt="Twente License" src="https://twente.me/shield.svg"></a>
+<a href="https://license.twente.me/sample"><img alt="Twente License" src="https://license.twente.me/shield.svg"></a>
 ```
 
 ## 🤔 FAQ
